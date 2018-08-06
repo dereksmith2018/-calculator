@@ -5,4 +5,8 @@ var number2= parseInt (prompt("Enter anther number"));
 
 
 
-alert(add(number1, number2));
+var result1= add(number1, number2);
+var result= sub(number1, number2);
+var result= multiply(number1, number2);
+var result= divide(number1, number2);
+alert(result1);
